@@ -1,0 +1,9 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using H3_project.Database;
+global using Microsoft.EntityFrameworkCore;
+global using H3_project.Models;
+global using H3_project.Repositories;
+global using H3_project.Interfaces;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.Mvc;

@@ -1,0 +1,36 @@
+<div>
+  <label>ID</label>
+  <input [(ngModel)]="category.categoryID">
+</div>
+
+<div>
+  <label>Name</label>
+  <input [(ngModel)]="category.categoryName">
+</div>
+<div>
+  <label>Id</label>
+  <input [(ngModel)]="category.id">
+</div>
+
+<button (click)="save()" class="btn btn-success btn-sm">Save</button>
+<button (click)="cancel()" class="btn btn-warning btn-sm">Cancel</button>
+
+<table>
+  <tr>
+    <th>Crud Actions</th>
+    <th>ID</th>
+    <th>categoryname</th>
+    <th>id</th>
+  </tr>
+  <tr *ngFor="let category of categories">
+    <td>
+      <button (click)="edit(category)" class="btn btn-warning btn-sm">Edit</button>
+      <button (click)="delete(category)" class="btn btn-danger btn-sm">Delete</button>
+    </td>
+
+    <td>{{ category.categoryID }}</td>
+    <td>{{ category.categoryName }}</td>
+    <td>{{ category.id }}</td>
+  </tr>
+
+</table>

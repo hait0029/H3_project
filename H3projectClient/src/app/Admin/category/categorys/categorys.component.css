@@ -1,0 +1,38 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: transparent;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+button{
+  font-weight: bold;
+}
+th{
+  color: white;
+}
+
+td{
+  color: black;
+  background-color: aliceblue;
+}
+
+.Title{
+  color: white;
+  text-align: center;
+}
+
+label{
+  color: white;
+}

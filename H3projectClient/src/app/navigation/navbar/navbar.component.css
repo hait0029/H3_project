@@ -1,0 +1,23 @@
+.nav-item{
+  padding-right: 10px;
+  font-weight: bold;
+
+
+
+}
+.navbar-brand{
+  font-style: italic;
+  font-weight: bold;
+
+}
+a:hover {
+  color: red;
+
+}
+a:link {
+  text-decoration: none;
+}
+
+a{
+  color: white;
+}

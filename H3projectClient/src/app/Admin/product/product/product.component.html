@@ -1,0 +1,44 @@
+<div>
+  <label>ID</label>
+  <input [(ngModel)]="product.productID">
+</div>
+
+<div>
+  <label>Name</label>
+  <input [(ngModel)]="product.productName">
+</div>
+<div>
+  <label>price</label>
+  <input [(ngModel)]="product.price">
+</div>
+
+<div>
+  <label>categoryId</label>
+  <input [(ngModel)]="product.categoryId">
+</div>
+
+<button (click)="save()" class="btn btn-success btn-sm">Save</button>
+<button (click)="cancel()" class="btn btn-warning btn-sm">Cancel</button>
+<br>
+<br>
+<table>
+  <tr>
+    <th>Crud Actions</th>
+    <th>ID</th>
+    <th>productname</th>
+    <th>productprice</th>
+    <th>categoryid</th>
+  </tr>
+  <tr *ngFor="let product of products">
+    <td>
+      <button (click)="edit(product)" class="btn btn-warning btn-sm">Edit</button>
+      <button (click)="delete(product)" class="btn btn-danger btn-sm">Delete</button>
+    </td>
+
+    <td>{{ product.productID }}</td>
+    <td>{{ product.productName }}</td>
+    <td>{{ product.price }}</td>
+    <td>{{ product.categoryId }}</td>
+  </tr>
+
+</table>

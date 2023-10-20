@@ -1,0 +1,10 @@
+global using Xunit;
+global using H3_project.Database;
+global using H3_project.Models;
+global using H3_project.Repositories;
+global using Microsoft.EntityFrameworkCore;
+global using Moq;
+global using Microsoft.AspNetCore.Mvc;
+global using H3_project.Controllers;
+global using H3_project.Interfaces;
+global using Microsoft.AspNetCore.Mvc.Infrastructure;

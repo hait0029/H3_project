@@ -1,0 +1,19 @@
+button{
+  font-weight: bold;
+}
+th{
+  color: white;
+}
+
+tbody{
+  background-color: wheat;
+}
+
+.Title{
+  color: white;
+  text-align: center;
+}
+
+td{
+  color: white;
+}

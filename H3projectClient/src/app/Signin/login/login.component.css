@@ -1,0 +1,53 @@
+.container {
+  width: 430px;
+  height: cover;
+  margin: auto;
+  color: white;
+  background-color: rgba(42, 42, 42, 1);
+  border-radius: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  background-color: white;
+}
+
+input[type=text],
+input[type=password] {
+  width: 320px;
+  height: 35px;
+  margin-bottom: 5px;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+a{
+  font-size: 15px;
+  color: lightblue;
+}
+
+button {
+  color: white;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#0d6efd;
+}
+
+i {
+  margin-left: -25px;
+  color: black;
+}
+
+.pwd{
+  cursor: pointer;
+}

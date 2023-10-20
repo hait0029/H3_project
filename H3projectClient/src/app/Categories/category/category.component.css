@@ -1,0 +1,31 @@
+*{
+  color: white;
+}
+
+.card{
+  background-color: transparent;
+
+}
+
+h2{
+  border-style: double;
+  border-radius: 5px;
+  border-width: 5px;
+  border-color: rgb(17, 82, 174);
+}
+
+h3{
+  border-style: double;
+  border-radius: 5px;
+  border-color: goldenrod;
+  border-width: 5px;
+}
+
+.buttons{
+  background-color: black;
+
+}
+
+.Title{
+  text-align: center;
+}

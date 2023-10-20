@@ -1,0 +1,12 @@
+<div class="Title">
+  <h1>Welcome</h1>
+</div>
+<section class="container">
+
+  <div class="card" *ngFor="let product of Products">
+    <h3>{{product.productID}}</h3>
+    <h3>{{product.productName}}</h3>
+    <h3>Price: {{product.price}}</h3>
+    <button class="buttons" (click)="addToCart(product)">Tilføj til kurven</button>
+  </div>
+</section>

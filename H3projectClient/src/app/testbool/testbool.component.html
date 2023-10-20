@@ -1,0 +1,6 @@
+<button (click)="toggleAdminPanel()">Admin</button>
+
+<div *ngIf="showAdminPanel">
+  <a routerLink="/Admin/category">Category CRUD</a>
+<a routerLink="/Admin/product">Product CRUD</a>
+</div>
